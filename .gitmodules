@@ -1,0 +1,24 @@
+[submodule "DSP_LDBTool"]
+	path = DSP_LDBTool
+	url = https://github.com/xiaoye97/DSP_LDBTool.git
+	branch = main
+[submodule "DSP-Mods"]
+	path = DSP-Mods
+	url = https://github.com/kremnev8/DSP-Mods.git
+	branch = master
+[submodule "DSP_PlanetFinder"]
+	path = DSP_PlanetFinder
+	url = https://github.com/jimmieclark3/DSP_PlanetFinder.git
+	branch = main
+[submodule "DSPTransferInfo"]
+	path = DSPTransferInfo
+	url = https://github.com/jimmieclark3/DSPTransferInfo.git
+	branch = master
+[submodule "DSP_Bottleneck"]
+	path = DSP_Bottleneck
+	url = https://github.com/jimmieclark3/DSP_Bottleneck.git
+	branch = master
+[submodule "IndexOutOfRangeDSPMod"]
+	path = IndexOutOfRangeDSPMod
+	url = https://github.com/LittleSaya/IndexOutOfRangeDSPMod.git
+	branch = master

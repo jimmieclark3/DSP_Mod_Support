@@ -8,11 +8,11 @@ namespace FactoryLocator
     {
         public int SignalId { get; set; } = 401;
 
-        private readonly List<PlanetFactory> factories = new();
-        private readonly Dictionary<int, int> filterIds = new();
-        private readonly List<int> planetIds = new();
-        private readonly List<Vector3> localPos = new();
-        private readonly List<int> detailIds = new();
+        internal readonly List<PlanetFactory> factories = new();
+        internal readonly Dictionary<int, int> filterIds = new();
+        internal readonly List<int> planetIds = new();
+        internal readonly List<Vector3> localPos = new();
+        internal readonly List<int> detailIds = new();
 
         public int SetFactories(StarData star, PlanetData planet)
         {

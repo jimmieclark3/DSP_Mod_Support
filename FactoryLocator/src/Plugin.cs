@@ -8,12 +8,14 @@ using FactoryLocator.UI;
 using FactoryLocator.Compat;
 using CommonAPI.Systems.ModLocalization;
 using System.Reflection;
+using System.Runtime.CompilerServices;
 
 [assembly: AssemblyFileVersion(FactoryLocator.Plugin.VERSION)]
 [assembly: AssemblyInformationalVersion(FactoryLocator.Plugin.VERSION)]
 [assembly: AssemblyVersion(FactoryLocator.Plugin.VERSION)]
 [assembly: AssemblyProduct(FactoryLocator.Plugin.NAME)]
 [assembly: AssemblyTitle(FactoryLocator.Plugin.NAME)]
+[assembly: InternalsVisibleTo("NebulaCompatibilityAssist")]
 
 namespace FactoryLocator
 {

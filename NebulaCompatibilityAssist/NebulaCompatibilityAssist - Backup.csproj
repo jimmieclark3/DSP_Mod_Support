@@ -34,7 +34,6 @@
   <ItemGroup>
     <ProjectReference Include="..\DSP-Mods\Mods\DSPModSave\src\DSPModSave\DSPModSave.csproj" />
     <ProjectReference Include="..\DSP_Bottleneck\Bottleneck.csproj" />
-    <ProjectReference Include="..\DSP_PlanetFinder\PlanetFinder\PlanetFinder.csproj" />
     <ProjectReference Include="..\FactoryLocator\FactoryLocator.csproj" />
     <ProjectReference Include="..\IndexOutOfRangeDSPMod\DSPTransportStat\DSPTransportStat.csproj" />
   </ItemGroup>

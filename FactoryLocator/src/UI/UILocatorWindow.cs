@@ -12,8 +12,8 @@ namespace FactoryLocator.UI
     {
         public RectTransform windowTrans;
         private RectTransform tab1;
-        private Text nameText;
-        private UIButton[] queryBtns;
+        internal Text nameText;
+        internal UIButton[] queryBtns;
         private UIButton clearAllBtn;
         private Text iconText;
         private UIButton iconBtn;
@@ -21,12 +21,12 @@ namespace FactoryLocator.UI
         private MyCheckBox warningCheckBox;
         private MyCheckBox autoclearCheckBox;
 
-        private PlanetData veiwPlanet;
-        private StarData veiwStar;
+        internal PlanetData veiwPlanet;
+        internal StarData veiwStar;
         private bool initialized;
         private UIButtonTip statusTip = null; // show power network status
         private string statusText = "";
-        private bool autoclear_enable = true; // clear previous results when close or make another query
+        internal bool autoclear_enable = true; // clear previous results when close or make another query
         private int currentLanguageLCID = 0;
 
         public static UILocatorWindow CreateWindow()
@@ -268,7 +268,7 @@ namespace FactoryLocator.UI
             NebulaCompat.OnUpdate();
         }
 
-        private void OnQueryClick(int queryType)
+        internal void OnQueryClick(int queryType)
         {
             if (autoclear_enable)
                 WarningSystemPatch.ClearAll();
